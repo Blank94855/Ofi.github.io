@@ -344,7 +344,7 @@ const commands = {
         <p>cowsay [text]  - Display a cow saying your message</p>
         <p>shutdown       - Shutsdown OrbitOS</p>
         <p>reboot         - Reboots OrbitOS</p>
-        <p>font [number]  - Selects terminal font</p>
+        <p>font  - Selects terminal font</p>
     `,
 
     clear: () => {
