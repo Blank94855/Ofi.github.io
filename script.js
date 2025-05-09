@@ -93,11 +93,11 @@ let historyIndex = -1;
 const config = {
     username: 'root',
     hostname: 'orbit',
-    version: '3.3.2',
+    version: '3.4',
     lastBootTime: new Date().toLocaleString(),
     systemInfo: {
         os: 'OrbitOS',
-        version: '3.3.2 - beta',
+        version: '3.4 - beta',
         kernel: '5.4.1-1059-gcp',
         architecture: 'x86_64',
         memory: '4.0GiB',
@@ -452,10 +452,11 @@ const commands = {
 
     software: () => `
         <p class="highlight">OrbitOS ${config.version} Changelog:</p>
-        <p>Orbit OS 3.3.2 upgrade.</p>
+        <p>Orbit OS 3.4 upgrade.</p>
 
 
-        <p>✅ Added 'fortune' and 'cowsay' commands along with may security</p>
+        <p>✅ Added 10 fonts.</p>
+        </p>⚙ improved UI
         <p>⛔ System improvements.</p>
     `,
 
